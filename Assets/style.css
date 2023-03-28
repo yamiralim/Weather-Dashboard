@@ -1,0 +1,90 @@
+.header {
+    padding: 8px;
+    background-color:rgb(68, 67, 67);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.col-md-4 {
+    background-color: lightgray;
+    height: 100%
+
+}
+#city-form {
+    height: 20%;
+}
+
+#add-city {
+    color: white;
+    background-color: blue;
+}
+
+.list-group {
+    padding-top: 5px;
+    padding-bottom:10px;
+    height: 80%;
+}
+
+.list-group-item {
+    padding-top: 5px;
+    padding-bottom:10px;
+    height: 80%;
+}
+
+
+.searchedCity {
+    background-color: white;
+    color: black;
+    height: 60%;
+}
+
+.fiveDay {
+    background-color: white;
+    color: black;
+    height: 40%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+.day1 {
+    display: inline-flex;
+    background-color: lightpink;
+    padding: 5px;
+    width: 100px;
+    height: 115px;
+    
+
+}
+.day2 {
+    display: inline-flex;
+    background-color: lightsalmon;
+    padding: 5px;
+    width: 100px;
+    height: 115px;
+}
+.day3 {
+    display: inline-flex;
+    background-color: lightcyan;
+    padding: 5px;
+    width: 100px;
+    height: 115px;
+}
+.day4 {
+    display: inline-flex;
+    background-color: lightseagreen;
+    padding: 5px;
+    width: 100px;
+    height: 115px;
+}
+.day5 {
+    display: inline-flex;
+    background-color: lightyellow;
+    padding: 5px;
+    width: 100px;
+    height: 115px;
+}

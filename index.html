@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1> Weather Dashboard </h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form id="city-form">
+                    <label for="city-input">Search for city:</label> <br>
+                    <input type="text" id="city-input">
+                    <input id="add-city" type="submit" value="Search">
+                </form>
+                <ul class="list-group list-group-flush"> 
+                    
+
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-8">
+                <div class="searchedCity">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <!-- The scope attribute specifies that this is a header for a column -->
+                                <th scope="col">Current Weather Details</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Space for searched cities to appear in additional row-->
+                            <tr>
+                                <td class="cityNameD">City: </td>
+                            </tr>
+                            <tr>
+                                <td class="tempD">Temperature: </td>
+                            </tr>
+                            <tr>
+                                <td class="humidityD">Humidity: </td>
+                            </tr>
+                            <tr>
+                                <td class="windD">Wind Speed: </td>
+                            </tr>
+                            <tr>
+                                <td class="uvIndexD">UV Index: </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="fiveDay">
+                    <h3>5 day forecast</h3>
+                    <div class="flex-container">
+                        <div class="day1">
+                            <p class="dt"></p><br>
+                            <img class="icon" src=""><br>
+                            <p class="temp5"></p><br>
+                            <p class="humidity5"></p><br>
+                        </div>
+                        <div class="day2">
+                            <p class="dt"></p><br>
+                            <img class="icon" src=""><br>
+                            <p class="temp5"></p><br>
+                            <p class="humidity5"></p><br>
+                        </div>
+                        <div class="day3">
+                            <p class="dt"></p><br>
+                            <img class="icon" src=""><br>
+                            <p class="temp5"></p><br>
+                            <p class="humidity5"></p><br>
+                        </div>
+                        <div class="day4">
+                            <p class="dt"></p><br>
+                            <img class="icon" src=""><br>
+                            <p class="temp5"></p><br>
+                            <p class="humidity5"></p><br>
+                        </div>
+                        <div class="day5">
+                            <p class="dt"></p><br>
+                            <img class="icon" src=""><br>
+                            <p class="temp5"></p><br>
+                            <p class="humidity5"></p><br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
